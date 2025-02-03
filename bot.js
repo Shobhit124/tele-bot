@@ -3,6 +3,8 @@ import fetch from 'node-fetch';
 import TelegramBot from 'node-telegram-bot-api';
 import fs from 'fs';
 import path from 'path';
+import dotenv from 'dotenv';
+dotenv.config();
 
 // Use your Telegram bot token
 const telegramToken = process.env.TELE_TOKEN; 
